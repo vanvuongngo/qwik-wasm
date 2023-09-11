@@ -11,17 +11,19 @@
 
 Getting started with fermyon spin
 
-install spin
+Install spin
 
 ```sh
 curl https://developer.fermyon.com/downloads/install.sh | bash
 ```
 
+Create a Qwik app
+
 ```sh
 pnpm create qwik@latest MY_APP # or `npm create qwik@latest`
 ```
 
-init spin and choose "static-fileserver"
+Initialize spin and choose "static-fileserver"
 
 ```sh
 spin new
@@ -41,7 +43,7 @@ extend spin.toml config (at the end)
 command = "pnpm build" # or `npm run build`
 ```
 
-add static html generator
+add qwik static html generator
 
 ```sh
 pnpm qwik add # or `npm run qwik add`

@@ -1,4 +1,4 @@
-# Qwik City App as wasm with Fermyon Spin
+# Qwik City App as WASM with Fermyon Spin
 
 - [Fermyon Spin](https://www.fermyon.com/)
 - [Qwik Docs](https://qwik.builder.io/)
@@ -7,36 +7,55 @@
 - [@QwikDev](https://twitter.com/QwikDev)
 - [Vite](https://vitejs.dev/)
 
----
+## Branch `qwik-project`
 
-Getting started with fermyon spin
+This git branch shows how you can kickoff your own Qwik Spin application w/o a spin template.
 
-Install spin
+## Prerequisites
+
+Install `spin`
 
 ```sh
 curl https://developer.fermyon.com/downloads/install.sh | bash
 ```
 
-Create a Qwik app
+Install `pnpm` (optional)
 
 ```sh
-pnpm create qwik@latest MY_APP # or `npm create qwik@latest`
+npm install -g pnpm
+```
+
+
+
+## Create a Qwik app
+
+```sh
+pnpm create qwik@latest <project-name> # or `npm create qwik@latest <project-name>`
 ```
 
 Initialize spin and choose "static-fileserver"
 
 ```sh
 spin new
+```
 
+choose
+
+```
 HTTP base: /
 HTTP path: /...
 ```
 
 ```sh
-cd MY_APP
+cd <project-name>
 ```
 
-extend spin.toml config (at the end)
+```sh
+pnpm install # or `npm install`
+```
+
+
+extend `spin.toml`` config (at the end)
 
 ```toml
 [component.build]
@@ -52,5 +71,5 @@ pnpm qwik add # or `npm run qwik add`
 start your Qwik WASM
 
 ```
-spin up --build
+spin build --up
 ```

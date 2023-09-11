@@ -46,6 +46,10 @@ HTTP path: /...
 cd <project-name>
 ```
 
+```sh
+pnpm install # or `npm install`
+```
+
 build your Qwik app and start your Spin app
 
 ```sh

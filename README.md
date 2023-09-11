@@ -17,17 +17,11 @@ Install spin
 curl https://developer.fermyon.com/downloads/install.sh | bash
 ```
 
-Create a Qwik app
-
 ```sh
-pnpm create qwik@latest MY_APP # or `npm create qwik@latest`
+spin new --template
 ```
 
-Initialize spin and choose "static-fileserver"
-
-```sh
-spin new
-
+````
 HTTP base: /
 HTTP path: /...
 ```
@@ -43,10 +37,10 @@ extend spin.toml config (at the end)
 command = "pnpm build" # or `npm run build`
 ```
 
-add qwik static html generator
+Optional: if you want to use `pnpm`
 
 ```sh
-pnpm qwik add # or `npm run qwik add`
+npm install -g pnpm
 ```
 
 start your Qwik WASM
@@ -54,3 +48,4 @@ start your Qwik WASM
 ```
 spin up --build
 ```
+````

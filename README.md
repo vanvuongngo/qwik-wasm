@@ -18,7 +18,7 @@ curl https://developer.fermyon.com/downloads/install.sh | bash
 ```
 
 ```sh
-pnpm create qwik@latest MY_APP # or `npm create qwik@latest``
+pnpm create qwik@latest MY_APP # or `npm create qwik@latest`
 ```
 
 init spin and choose "static-fileserver"

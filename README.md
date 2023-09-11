@@ -38,13 +38,13 @@ extend spin.toml config (at the end)
 
 ```toml
 [component.build]
-command = "pnpm build" # or `npm run build``
+command = "pnpm build" # or `npm run build`
 ```
 
 add static html generator
 
 ```sh
-pnpm qwik add # or `npm run qwik add``
+pnpm qwik add # or `npm run qwik add`
 ```
 
 start your Qwik WASM

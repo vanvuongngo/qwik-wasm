@@ -14,3 +14,4 @@ exclude_files = ["**/node_modules"]
 route = "{{http-path}}"
 [component.build]
 command = "pnpm build"
+watch = ["src/**/*"]

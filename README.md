@@ -12,7 +12,8 @@
 Install `spin`
 
 ```sh
-curl https://developer.fermyon.com/downloads/install.sh | bash
+curl -fsSL https://developer.fermyon.com/downloads/install.sh | bash
+sudo mv ./spin /usr/local/bin/spin
 ```
 
 Install `pnpm` (optional)

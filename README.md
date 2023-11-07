@@ -33,7 +33,7 @@ spin template install --git https://github.com/vanvuongngo/qwik-wasm.git --upgra
 ## Use template to create a new Spin application
 
 ```sh
-spin new qwik-frontend <project-name>
+spin new <projekt-name> -t qwik-frontend
 ```
 
 choose

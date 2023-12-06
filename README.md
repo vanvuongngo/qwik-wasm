@@ -26,14 +26,28 @@ If you do not install `pnpm` then you have to modify `component.build.command` i
 
 ## Installing the Spin application template
 
+latest
+
 ```sh
-spin template install --git https://github.com/vanvuongngo/qwik-wasm.git --upgrade
+spin template install --upgrade --git https://github.com/vanvuongngo/qwik-wasm.git
+```
+
+deprecated spin v1.5
+
+```sh
+spin template install --upgrade --git https://github.com/vanvuongngo/qwik-wasm.git --branch v2.0.0
 ```
 
 ## Use template to create a new Spin application
 
 ```sh
-spin new <projekt-name> -t qwik-frontend
+spin new -t qwik-frontend <projekt-name>
+```
+
+or show list and select qwik-frontend as the template
+
+```sh
+spin new <projekt-name>
 ```
 
 choose

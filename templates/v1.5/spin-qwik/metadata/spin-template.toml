@@ -1,10 +1,12 @@
 manifest_version = "1"
 id = "qwik-frontend"
-description = "O(1) front-end application using Qwik and Spin"
+description = "Front-end application using Qwik and Spin"
+tags = ["qwik", "frontend", "front-end", "fe", "web"]
 
 [add_component]
 skip_files = ["spin.toml"]
 skip_parameters = ["http-base"]
+
 [add_component.snippets]
 component = "component.txt"
 

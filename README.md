@@ -70,3 +70,7 @@ build your Qwik app and start your Spin app
 ```sh
 spin build --up
 ```
+
+---
+
+[Buy me a coffee](https://www.buymeacoffee.com/vuongngo)

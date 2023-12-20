@@ -17,4 +17,4 @@ exclude_files = ["**/node_modules"]
 
 [component.{{project-name | kebab_case}}.build]
 command = "pnpm build"
-watch = ["src/**/*"]
+watch = ["src/**/*.tsx", "src/**/*.css"]

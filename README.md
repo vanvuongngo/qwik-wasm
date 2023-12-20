@@ -50,10 +50,9 @@ or show list and select qwik-frontend as the template
 spin new <projekt-name>
 ```
 
-choose
+choose e.g.
 
 ```
-HTTP base: /
 HTTP path: /...
 ```
 

@@ -64,6 +64,10 @@ cd <project-name>
 pnpm install # or `npm install`
 ```
 
+```sh
+cd ..
+```
+
 build your Qwik app and start your Spin app
 
 ```sh

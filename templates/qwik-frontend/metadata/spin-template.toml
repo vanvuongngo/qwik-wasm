@@ -1,11 +1,4 @@
-spin_manifest_version = 2
-
-[application]
-name = "qwik-frontend"
-version = "0.1.0"
-authors = [""]
-description = "Front-end application using Qwik and Spin for serverless, secure and scaleable web apps"
-tags = ["qwik", "frontend", "front-end", "fe", "web"]
+tags = ["qwik", "frontend", "fe", "web"]
 
 [add_component]
 skip_files = ["spin.toml"]
@@ -15,5 +8,6 @@ skip_parameters = ["http-base"]
 component = "component.txt"
 
 [parameters]
+project-name = { type = "string", prompt = "Project name" }
 project-description = { type = "string", prompt = "Project description", default = "" }
 http-path = { type = "string", prompt = "HTTP path", default = "/...", pattern = "^/\\S*$" }

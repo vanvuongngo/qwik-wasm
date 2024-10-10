@@ -1,4 +1,4 @@
-spin_manifest_version = "1"
+manifest_version = "1"
 id = "qwik-frontend"
 description = "Front-end application using Qwik"
 tags = ["qwik", "frontend", "fe", "web"]

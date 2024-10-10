@@ -1,6 +1,10 @@
-manifest_version = "1"
-id = "qwik-frontend"
-description = "Front-end application using Qwik and Spin"
+spin_manifest_version = 2
+
+[application]
+name = "qwik-frontend"
+version = "0.1.0"
+authors = [""]
+description = "Front-end application using Qwik and Spin for serverless, secure and scaleable web apps"
 tags = ["qwik", "frontend", "front-end", "fe", "web"]
 
 [add_component]

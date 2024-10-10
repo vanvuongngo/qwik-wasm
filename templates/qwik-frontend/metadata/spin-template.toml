@@ -1,3 +1,5 @@
+spin_manifest_version = 2
+
 tags = ["qwik", "frontend", "fe", "web"]
 
 [add_component]

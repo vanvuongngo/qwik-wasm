@@ -1,6 +1,4 @@
 /*
- * WHAT IS THIS FILE?
- *
  * The service-worker.ts file is used to have state of the art prefetching.
  * https://qwik.dev/qwikcity/prefetching/overview/
  *

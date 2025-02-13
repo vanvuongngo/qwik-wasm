@@ -29,13 +29,18 @@ If you do not install `pnpm` then you have to modify `component.build.command` i
 latest
 
 ```sh
-spin template install --upgrade --git https://github.com/vanvuongngo/qwik-wasm.git
+spin template install --upgrade --git vanvuongngo/qwik-wasm
+```
+
+template with a qwik example app (old qwik version)
+```sh
+spin template install --upgrade --git vanvuongngo/qwik-wasm --branch example-app
 ```
 
 deprecated spin v1.5
 
 ```sh
-spin template install --upgrade --git https://github.com/vanvuongngo/qwik-wasm.git --branch v2.0.0
+spin template install --upgrade --git vanvuongngo/qwik-wasm --branch v2.0.0
 ```
 
 ## Use template to create a new Spin application
@@ -73,6 +78,16 @@ build your Qwik app and start your Spin app
 ```sh
 spin build --up
 ```
+
+---
+
+## Testing new template version from local directory
+
+```
+spin templates install --dir ./qwik-wasm --upgrade
+```
+
+The directory you pass must be one that contains a templates directory. Don’t pass the templates directory itself!
 
 ---
 

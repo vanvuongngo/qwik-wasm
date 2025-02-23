@@ -28,10 +28,10 @@ export default component$(() => {
           />
         )}
         <RouterHead />
-        {!isDev && <ServiceWorkerRegister />}
       </head>
       <body lang="en">
         <RouterOutlet />
+        {!isDev && <ServiceWorkerRegister />}
       </body>
     </QwikCityProvider>
   );

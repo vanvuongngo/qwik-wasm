@@ -7,6 +7,8 @@
 - [@QwikDev](https://twitter.com/QwikDev)
 - [Vite](https://vitejs.dev/)
 
+[Buy me a coffee](https://www.buymeacoffee.com/vuongngo)
+
 ## Prerequisites
 
 Install `spin`
@@ -88,7 +90,3 @@ spin templates install --dir ./qwik-wasm --upgrade
 ```
 
 The directory you pass must be one that contains a templates directory. Don’t pass the templates directory itself!
-
----
-
-[Buy me a coffee](https://www.buymeacoffee.com/vuongngo)

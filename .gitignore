@@ -3,3 +3,4 @@ dist
 tmp
 .spin
 .vscode/launch.json
+.DS_Store
